@@ -94,9 +94,9 @@ void validation()
         exit(0);
     }
 
-    int type = 0, k = FindFile("std2.cpp");
+    int type = 0, k = FindFile("std2.cpp", "NOT FOUND std2.cpp");
     if (k == 0)
-        k = FindFile("std2.py"), type = 1;
+        k = FindFile("std2.py", "NOT FOUND std2.py"), type = 1;
     if (k == 0)
         exit(0);
 
