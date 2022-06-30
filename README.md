@@ -9,8 +9,8 @@
 ├── autowork
 ├── gen-chart
 ├── gen.cpp
-├── std.cpp
-├── std2.py
+├── std.cpp/std.py
+├── std2.cpp/std2.py
 ├── val.cpp
 ├── 程序
 │   ├── gen-chart
